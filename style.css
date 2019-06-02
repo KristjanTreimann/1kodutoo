@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower');
+
+
+.container {
+  display: flex;
+  display: -webkit-flex;
+  top: 4%;
+  left: 50%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  animation: bouncy 5s infinite linear;
+  
+}
+.timeContainer{
+    display: flex;
+    color: white;
+    font: 150px/1 'Indie Flower', sans-serif;
+    /*font-size: 150px;
+    font-weight: bold;*/
+    text-align: center;
+    align-self: center;
+    flex-grow: 0;
+    flex-shrink: 1;
+    position: relative;
+  }
+
+.dayContainer{
+    display: flex;
+    color: white;
+    font-family: 300 50px/1 'Lato', sans-serif;
+    /*font-size: 50px;
+    font-weight: bold;*/
+    text-align: center;
+    justify-content: center;
+    flex-grow: 0;
+    flex-shrink: inherit;
+    position: relative;
+
+  }
+
+.buttonContainer {
+  text-align: center;
+}
+
+button {
+  border-radius: 30px;
+  border: 1px wheat;
+  text
+}
+
+button:hover {
+  background-color: pink;
+}
+
+footer {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  text-align: center;
+}
+
+@keyframes bouncy {
+    0% { top: 45% }
+    40% { top: 56% }
+    43% { top: 42% }
+    46% { top: 46% }
+    48% { top: 48% }
+    50% { top: 47% }
+    100% { top: 45%; }
+}
+
+
